@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--ic_selected-->
+    <item android:drawable="@drawable/ic_tab_icon_black" android:state_selected="true" />
+    <!--ic_unselected-->
+    <item android:drawable="@drawable/ic_tab_icon_white" android:state_focused="false" android:state_pressed="false" android:state_selected="false" />
+</selector><!--
+//for setting tint
+<item android:state_focused="false" android:state_pressed="false" android:state_selected="false">
+<bitmap android:src="@drawable/ic_tab_icon_white" android:tint="@color/colorBlack" />
+</item>-->
